@@ -1,0 +1,41 @@
+.topbar {
+  position: sticky;
+  left: 100px;
+  top: 0;
+  z-index: 50;
+  background: var(--panel);
+  border-bottom: 4px solid #000;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.8);
+  transition: all var(--speed-fast);
+}
+
+.topbar.scrolled {
+  background: var(--panel-2);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+.topbar .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 0;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 14px;
+  box-shadow: 3px 3px 0 #000000;
+  transform: rotate(-1deg);
+  font-weight: bold;
+}
+
+.auth {
+  display: flex;
+  gap: 16px;
+}

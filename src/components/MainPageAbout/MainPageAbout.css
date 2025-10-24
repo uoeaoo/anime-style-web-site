@@ -1,0 +1,31 @@
+.grid-about {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 30px;
+}
+
+.info-card {
+  border-radius: 0;
+  padding: 26px;
+  background: var(--panel-2);
+  box-shadow: var(--shadow-2);
+  border: 3px solid #000;
+  transform: rotate(0.5deg);
+}
+
+.ticks {
+  padding-left: 24px;
+}
+
+.ticks li {
+  margin: 10px 0;
+  position: relative;
+  font-family: "Comic Neue", cursive;
+  font-size: 1.1em;
+}
+
+.ticks li::before {
+  content: "💥";
+  position: absolute;
+  left: -24px;
+}

@@ -1,0 +1,115 @@
+.cookie-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  z-index: 1000;
+  background: #fff;
+  color: #000;
+  border: 4px solid #000;
+  border-radius: 0;
+  box-shadow: 10px 10px 0 #000;
+}
+
+.cookie-banner.show {
+  display: block;
+  animation: comicDrop 0.22s ease-out;
+}
+
+@keyframes comicDrop {
+  from {
+    transform: translateY(20px) rotate(-4deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0) rotate(-0.8deg);
+    opacity: 1;
+  }
+}
+
+.cookie-inner {
+  width: 100%;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 16px 10px;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.06) 0 8px,
+    transparent 8px 16px
+  );
+}
+
+.cookie-copy strong {
+  font-family: "Bangers", "Comic Neue", cursive;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 6px;
+  text-shadow: 2px 2px 0 var(--accent-3);
+}
+
+.cookie-link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 3px dotted #000;
+  font-size: 13px;
+}
+
+.cookie-link:hover {
+  background: var(--accent-3);
+  color: #000;
+}
+
+.cookie-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cookie-actions .btn {
+  border-radius: 0;
+  border: 3px solid #000;
+  box-shadow: 4px 4px 0 #000;
+}
+
+.cookie-actions .btn.ghost {
+  background: #fff;
+}
+.cookie-actions .btn.outline {
+  background: #fff;
+  box-shadow: inset 0 0 0 3px #000, 4px 4px 0 #000;
+}
+
+.cookie-prefs {
+  display: grid;
+  gap: 10px;
+  margin: 10px 16px 16px;
+  padding: 12px;
+  border-top: 4px solid #000;
+  background: #fffef2;
+}
+.cookie-prefs label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: "Comic Neue", sans-serif;
+}
+.cookie-prefs input {
+  width: 18px;
+  height: 18px;
+  accent-color: #000;
+}
+.cookie-prefs-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.cookie-banner:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}

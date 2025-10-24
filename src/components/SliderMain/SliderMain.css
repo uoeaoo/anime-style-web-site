@@ -1,0 +1,82 @@
+.carousel {
+  position: relative;
+  border-radius: var(--radius-xl);
+  background: var(--panel-3);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  border: 4px solid #000000;
+  transform: rotate(1deg);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+  padding: 30px;
+  height: 500px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.copy h1 {
+  text-wrap: nowrap;
+  color: #fff;
+  width: 100%;
+  z-index: 1;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+.copy p {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 6px 6px 0 #000000, var(--glow-comic);
+}
+
+.dots {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+  background: var(--panel);
+  box-shadow: 2px 2px 0 #000000;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  transition: all var(--speed-fast);
+}
+
+.dot.active {
+  background: var(--accent);
+  transform: rotate(45deg) scale(1.2);
+  animation: comic-pulse 1s ease-in-out infinite;
+}
+
+@keyframes comic-pulse {
+  0%,
+  100% {
+    box-shadow: 2px 2px 0 #000000;
+  }
+  50% {
+    box-shadow: 2px 2px 0 #000000, 0 0 0 8px rgba(255, 64, 129, 0.4);
+  }
+}

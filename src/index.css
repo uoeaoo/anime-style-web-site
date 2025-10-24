@@ -1,13 +1,118 @@
-body {
+:root {
+  --bg: #fff8e1;
+  --bg-2: #ffeaa7;
+  --panel: #ffffff;
+  --panel-2: #fffde7;
+  --panel-3: #fff9c4;
+  --ink: #1a237e;
+  --muted: #5d4037;
+  --accent: #ff4081;
+  --accent-2: #7e57c2;
+  --accent-3: #00bcd4;
+  --accent-4: #ff9800;
+  --warn: #ff5722;
+  --line: #000000;
+  --line-2: #5d4037;
+  --shadow-1: 6px 6px 0px rgba(0, 0, 0, 0.8), 3px 3px 0px rgba(0, 0, 0, 0.6);
+  --shadow-2: 8px 8px 0px rgba(0, 0, 0, 0.9), 4px 4px 0px rgba(0, 0, 0, 0.7);
+  --glow-comic: 0 0 0 4px #ff4081, 0 0 0 6px #000000;
+  --radius-xl: 0px;
+  --radius-lg: 0px;
+  --radius-md: 4px;
+  --radius-sm: 2px;
+  --speed-fast: 0.1s;
+  --speed: 0.2s;
+  --speed-slow: 0.3s;
+
+  --wrap: 1260px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Bangers", "Comic Neue", cursive, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  color: var(--ink);
+  background: var(--bg);
+  letter-spacing: 0.5px;
+  border: 4px solid #000000;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  z-index: -1;
+  position: fixed;
+  inset: 0;
+  background-image: 
+    radial-gradient(
+      circle at 20% 30%,
+      #ffeaa7 2px,
+      transparent 2px
+    ),
+    radial-gradient(
+      circle at 80% 70%, 
+      #ffccbc 2px, 
+      transparent 2px),
+    radial-gradient(
+      circle at 40% 90%, 
+      #c5e1a5 2px, 
+      transparent 2px),
+    linear-gradient(
+      45deg,
+      transparent 49%,
+      #000000 49%,
+      #000000 51%,
+      transparent 51%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 49%,
+      #000000 49%,
+      #000000 51%,
+      transparent 51%
+    );
+  background-size: 100px 100px, 120px 120px, 80px 80px, 20px 20px, 20px 20px;
+  background-position: 0 0, 30px 30px, 60px 60px, 0 0, 0 0;
+  opacity: 0.4;
+  animation: comic-bg 20s linear infinite;
+}
+
+@keyframes comic-bg {
+  from {
+    background-position: 0 0, 30px 30px, 60px 60px, 0 0, 0 0;
+  }
+
+  to {
+    background-position: 100px 100px, 130px 130px, 160px 160px, 20px 20px,
+      20px 20px;
+  }
+}
+

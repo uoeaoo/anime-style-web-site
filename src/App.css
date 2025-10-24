@@ -1,10 +1,4 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,22 +6,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +13,127 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.section {
+  padding: 50px 0 20px 100px;
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #000;
+  transform: rotate(-0.5deg);
+  transition: transform var(--speed-fast), box-shadow var(--speed-fast);
+}
+
+.panel:hover {
+  transform: rotate(0.5deg) translateY(-2px);
+  box-shadow: var(--shadow-2);
+}
+
+.panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(0, 0, 0, 0.05) 10px,
+    rgba(0, 0, 0, 0.05) 20px
+  );
+}
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  background: var(--accent);
+  box-shadow: 4px 4px 0 #000;
+  border: 3px solid #000;
+  transform: skew(-5deg);
+  transition: all var(--speed);
+  text-transform: uppercase;
+  font-family: "Bangers", cursive;
+  font-size: 1.1em;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border: 2px solid #fff;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.btn:hover {
+  transform: skew(-5deg) translateY(-3px);
+  box-shadow: 6px 6px 0 #000;
+  background: var(--accent-2);
+}
+
+.btn:active {
+  transform: skew(-5deg) translateY(0);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+.btn.ghost {
+  color: var(--ink);
+  background: var(--panel);
+  box-shadow: 3px 3px 0 #000000;
+  border: 2px solid #000000;
+}
+
+.btn.ghost:hover {
+  box-shadow: 5px 5px 0 #000000;
+  background: var(--bg-2);
+}
+
+.btn.outline {
+  color: var(--ink);
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #000000, 3px 3px 0 #000000;
+}
+
+.btn.outline:hover {
+  box-shadow: inset 0 0 0 2px var(--accent), 5px 5px 0 #000000;
+}
+
+.row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row.end {
+  display: flex;
+  justify-content: flex-end;
 }

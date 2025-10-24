@@ -1,0 +1,10 @@
+.hero {
+  padding-left: 100px;
+}
+
+.grid-hero {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 30px;
+  padding: 50px 0 30px;
+}

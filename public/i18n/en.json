@@ -1,0 +1,178 @@
+{
+    "tip_hero": "Home",
+    "tip_about": "About",
+    "tip_features": "Features",
+    "tip_gallery": "Gallery",
+    "tip_contact": "Contact",
+  
+    "menu_home": "Home",
+    "menu_about": "About us",
+    "menu_features": "Our advantages",
+    "menu_gallery": "Portfolio",
+    "menu_contact": "Get in touch",
+  
+    "lang_switch": "Change language",
+    "lang_ru": "Russian",
+    "lang_en": "English",
+  
+    "loading": "Loading...",
+    "error_load": "Error loading data",
+    "scroll_top": "Scroll to top",
+
+    "hdr_licensed_pill": "Community project — made by anime fans, not affiliated with any studio.",
+    "hdr_auth_nav_label": "User authentication navigation",
+    "nav_login": "Login",
+    "nav_register": "Register",
+
+    "hero_cards_aria": "Highlights and quick actions",
+
+    "hero_card_1_title": "Discuss your favorite anime",
+    "hero_card_1_text": "Create threads, share theories and connect with fans across the world.",
+    "hero_card_2_title": "Community blog & reviews",
+    "hero_card_2_text": "Read and write posts, episode breakdowns, and long-form reviews.",
+    "hero_card_3_title": "Events & watch parties",
+    "hero_card_3_text": "Join seasonal marathons, weekly watch parties and live chats.",
+
+    "hero_card_btn_discuss": "Start a discussion",
+    "hero_card_btn_rules": "Read the rules",
+    "hero_card_btn_blog": "Open the blog",
+    "hero_card_btn_guides": "Community guides",
+    "hero_card_btn_events": "See events",
+
+    "slider_aria_label": "Featured announcements carousel",
+    "slider_dots_aria": "Slides",
+    "slider_dot_aria": "Slide {n}",
+  
+    "slider_first_title": "Join the anime discussion",
+    "slider_first_description": "Create threads, share theories, and connect with fans across the world. Your watchlist just found its people.",
+    "cta_register": "Register",
+    "cta_login": "Login",
+  
+    "slider_second_title": "Community blog — by fans, for fans",
+    "slider_second_description": "Long-form reviews, episode breakdowns, editorials and fan art highlights — all in one place.",
+    "slider_second_pill": "Fresh posts daily",
+  
+    "slider_third_title": "Watch parties & seasonal events",
+    "slider_third_description": "Weekly watch-alongs, live chats, and friendly challenges. Bring snacks and good vibes!",
+    "slider_third_pill": "Open to everyone",
+
+    "pages_section_aria": "Community pages",
+    "pages_title": "Pages",
+
+    "pages_blog_alt": "Open Blog page",
+    "pages_blog_title": "Community Blog",
+    "pages_blog_text": "Read episode breakdowns, long-form reviews and editorials. Share your thoughts and publish your own posts.",
+    "pages_blog_cta": "Visit Blog",
+
+    "pages_news_alt": "Open News page",
+    "pages_news_title": "News & Updates",
+    "pages_news_text": "Fresh announcements, platform updates and seasonal highlights from across the anime community.",
+    "pages_news_cta": "Visit News",
+
+    "about_section_aria": "About the community section",
+    "about_title": "About Us",
+    "about_text_1": "AnimeAmineCO is a fan-run community where anime lovers discuss episodes, share theories, and discover new series together.",
+    "about_text_2": "We keep things friendly, spoiler-safe, and accessible — no paywalls, no noise, just good conversations and collaborative fan culture.",
+    "about_list_aria": "Community principles",
+    "about_li_1": "Be respectful: credit artists and use spoiler tags when needed.",
+    "about_li_2": "Share discovery: hidden gems, seasonal picks, and recommendations.",
+    "about_li_3": "Build together: reviews, guides, events, and watch parties.",
+  
+    "contact_card_aria": "Contact information card",
+    "contact_title": "Contact",
+    "contact_company": "AnimeAmineCO",
+    "contact_email": "support@animeamenico.com",
+    "contact_hours": "Support: 09:00 – 21:00 CET",
+  
+    "menu_about": "About",
+    "menu_contact": "Contact",
+
+    "sm_section_aria": "More about the manga and anime culture",
+    "sm_title": "The Living World of Anime and Manga",
+    "sm_show_more": "Show more",
+    "sm_show_less": "Show less",
+
+    "sm_p1": "Anime and manga are more than entertainment — they are a reflection of the human experience. From the quiet melancholy of slice-of-life stories to the grand cosmic dramas of mecha epics, each title carries its own heart, philosophy, and rhythm. These works speak to the timeless emotions of growth, loss, hope, and identity, capturing them through the language of art and imagination. Every panel and every frame is a world built with care, connecting millions of people through shared emotion and wonder.",
+
+    "sm_p2": "Behind every story stands a mangaka — an artist whose vision turns ink into universes. Figures like Osamu Tezuka, often called the 'God of Manga', paved the way for countless successors. Rumiko Takahashi brought warmth and humor to romantic chaos; Naoki Urasawa wove psychological thrillers that question morality and destiny; Eiichiro Oda built a world so vast and hopeful that readers grow up alongside his characters. Each creator is inspired by others — a living lineage of art where every generation passes on the spark of creativity.",
+
+    "sm_p3": "Anime culture thrives on connection and diversity. It teaches that there is no single way to see the world: from the surreal symbolism of Satoshi Kon to the heartfelt simplicity of Kyoto Animation, each studio and artist offers a unique voice. Fans gather not just to consume, but to discuss, analyze, and create. Fan art, cosplay, AMVs, and fan fiction all grow from the same passion — the desire to belong to something beautiful and expressive. In this culture, participation is creation.",
+
+    "sm_p4": "Supporting anime and manga culture means supporting empathy, artistry, and global storytelling. Every discussion thread, every convention meetup, and every local screening contributes to keeping these worlds alive. Through sharing, translating, and preserving, we ensure that voices from different eras and regions are not forgotten. The themes explored in anime — loneliness, courage, kindness, resilience — resonate across languages and generations. They remind us that vulnerability is strength and that hope can take any form, even in a hand-drawn line.",
+
+    "sm_p5": "To love anime is to celebrate imagination itself. It is to see yourself in Shinji’s fear, in Chihiro’s growth, in Guts’s endurance, or in Lain’s isolation. It is to recognize that art can be both escapism and truth, that every frame might hold a mirror to our lives. The anime community is a mosaic of stories, perspectives, and dreams — proof that creativity knows no borders. When we watch, read, and share together, we carry forward not just fandom, but a living culture that keeps evolving with every heartbeat, every episode, every page.",
+
+    "cookie_aria_label": "Cookie consent",
+    "cookie_title": "Cookies & Privacy",
+    "cookie_body": "We use cookies to personalize content, understand how our community platform is used, and improve features. You can accept all or manage preferences.",
+    "cookie_policy": "Learn more",
+    "cookie_accept": "Accept all",
+    "cookie_reject": "Reject non-essential",
+    "cookie_settings": "Manage settings",
+    "cookie_save": "Save preferences",
+    "cookie_cancel": "Cancel",
+    "cookie_close": "Close",
+  
+    "cookie_prefs_title": "Cookie preferences",
+    "cookie_prefs_intro": "Choose which categories of cookies you want to allow. Necessary cookies are always on to keep the site working.",
+    "cookie_required": "Required",
+  
+    "cookie_cat_necessary": "Necessary",
+    "cookie_cat_necessary_desc": "Core features like security, network management and accessibility. You can’t turn these off.",
+    "cookie_cat_analytics": "Analytics",
+    "cookie_cat_analytics_desc": "Helps us understand usage and improve content (aggregated, anonymized where possible).",
+    "cookie_cat_marketing": "Marketing",
+    "cookie_cat_marketing_desc": "Used to personalize external content and measure campaign performance.",
+
+    "modal_close": "Close",
+    "register_aside_title": "Join Us",
+    "register_aside_text": "Create your account to follow series, join discussions, and share your reviews.",
+    "register_title": "Create account",
+
+    "label_email": "Email",
+    "label_password": "Password",
+    "label_password2": "Repeat Password",
+    "label_country": "Country",
+
+    "ph_email": "you@example.com",
+    "ph_password_hint": "Choose a strong password",
+    "ph_password_repeat": "Repeat password",
+
+    "country_RU": "Russia",
+    "country_US": "United States",
+    "country_FR": "France",
+
+    "cta_create": "Create Account",
+
+    "err_email_format": "Enter a valid email address (must contain \"@\" and \".\").",
+    "err_password_rules": "At least 8 characters with a letter, a number and a special symbol.",
+    "err_password_match": "Passwords do not match.",
+
+    "eye_show": "Show password",
+    "eye_hide": "Hide password",
+
+    "footer_aria_label": "Website footer",
+    "footer_nav_label": "Footer navigation",
+    "footer_badges_label": "Community and creative badges",
+  
+    "footer_brand": "AnimeAmineCO",
+    "footer_logo_alt": "{brand} logo",
+    "footer_tagline": "A global community for anime lovers — discuss, share and explore your favorite series together.",
+  
+    "nav_privacy": "Privacy Policy",
+    "nav_terms": "Terms & Conditions",
+    "nav_cookies": "Cookie Policy",
+    "nav_faq": "FAQ",
+    "nav_contact": "Contact",
+    "nav_about": "About",
+  
+    "badge_community": "Anime community",
+    "badge_fairuse": "Fair use & fandom friendly",
+    "badge_open": "Open discussions",
+    "badge_fans": "By fans for fans",
+    "badge_creative": "Creative culture",
+    "badge_nonprofit": "Non-profit project",
+  
+    "footer_rights": "© {year} {brand}. Built by fans, for fans."
+    
+  }
